@@ -1,0 +1,26 @@
+<head>
+  <title>iotm</title>
+</head>
+<body>
+  <h1>IOT Brice Tests</h1>
+
+  {{> devices}}
+</body>
+
+<template name="devices">
+<div class="Tableau">
+   <p class="legende">
+      <span class="tit">Device</span>
+      <span class="tit">Heure</span>
+      <span class="tit">Data</span>
+   </p>
+   {{#each devList}}
+   <p>
+	<span class="dat">{{name}}</span>
+	<span class="dat">{{time}}</span>
+	<span class="dat">{{data}}</span>
+   </p>
+   {{/each}}
+</div>
+</template>
+

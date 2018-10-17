@@ -1,0 +1,25 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.Tableau span {
+   display:inline;
+   float:left;
+   border:1px solid #BECEDF;
+   margin:0px;
+   padding:3px;
+  }
+.Tableau p {
+   clear:left;
+   margin:0px;
+   padding:0px;
+   height:100% !important; height:1em;
+  }
+.Tableau p.legende {font-weight:bold}
+.Tableau span {width:300px}
+.Tableau span.tit {height:30px; 
+  vertical-align: middle;
+
+}
+.Tableau span.dat {height:25px}
